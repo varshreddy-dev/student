@@ -8,4 +8,8 @@ b.textContent = "Delete";
 b.onclick = () => row.remove();
 row.insertCell().appendChild(b);
 f.reset();
+
+document.getElementById("msg").textContent =
+    "Student registered successfully!";
+    
 };
